@@ -13,11 +13,11 @@ void InsertionSort(char ch[], int n)
 {
     for (int i = 1; i < n; i++)
     {
-        int curr = ch[i];
-        int prev = i - 1;
+        int curr = ch[i]; // let = 3
+        int prev = i - 1; // let = 2
         while (prev >= 0 && curr > ch[prev])
         {
-            swap(ch[prev], ch[prev + 1]);
+            swap(ch[prev], ch[prev + 1]); //
             prev--;
         }
     }
