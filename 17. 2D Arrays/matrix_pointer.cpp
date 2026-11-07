@@ -10,7 +10,7 @@ int main()
                      {13, 14, 15, 16}};
 
     cout << mat << " = " << &mat[0][0] << endl;
-    cout << mat + 1 << " = " << &mat[0][1] << endl;
+    cout << mat + 1 << " = " << &mat[0][1] << endl; // Not 2nd pointer or row
     cout << mat + 1 << " = " << &mat[1][0] << endl;
     cout << mat + 1 << endl;
 
