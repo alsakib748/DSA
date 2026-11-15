@@ -3,7 +3,7 @@ using namespace std;
 
 void oddOrEven(int num)
 {
-    if (!(num & 1)) // 0 not give true
+    if (!(num & 1)) // return true
     {
         cout << "Even\n";
     }
