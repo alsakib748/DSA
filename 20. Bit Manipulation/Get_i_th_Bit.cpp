@@ -5,6 +5,8 @@ int getIthBit(int num, int i)
 {
     int bitMask = 1 << i;
 
+    // cout << bitMask << endl;
+
     if (!(num & bitMask))
     {
         return 0;
