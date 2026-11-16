@@ -4,6 +4,7 @@ using namespace std;
 void clearIBits(int num, int i)
 {
     int bitMask = (~0) << i;
+    cout << bitMask << endl;
     num = num & bitMask;
 
     cout << num << endl;
