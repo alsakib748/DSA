@@ -23,6 +23,16 @@ int clearRangeOfBit(int num, int i, int j)
     return num;
 }
 
+// todo; Optimize Way
+void clearBitsInRange(int num, int i, int j)
+{
+    int a = (~0) << (j + 1);
+    int b = (1 << i) - 1;
+    int mask = a | b;
+    num = num & mask;
+    cout << num << endl;
+}
+
 int main()
 {
 
