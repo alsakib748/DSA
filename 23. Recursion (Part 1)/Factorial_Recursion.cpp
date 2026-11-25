@@ -10,8 +10,6 @@ int factorial(int n)
     }
     // cout << n * factorial(n - 1) << endl;
     return n * factorial(n - 1);
-    cout << endl
-         << endl;
 }
 
 int main()
